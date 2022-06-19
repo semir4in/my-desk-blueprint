@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tenor+Sans">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/effect.css">
+    <title>My Desk</title>
+</head>
+<body>
+    <div id="login-background-div">
+        
+    </div>
+
+    <div id="login-div" class="login-pane">
+        <h1>My Desk</h1>
+        <span>ID</span><br/>
+        <input id="id-input"></input>
+        <div>
+            <button id="login-button" class="in-button">Login </button>
+            <button id="reset-button" class="in-glow-button">Reset </button>
+        </div>
+    </div>
+
+    <div id="login-check-div" class="hidden login-pane">
+
+    </div>    
+
+    <div id="content-div">
+        <h2>                
+            <span id="greeting-span">Hello, World!</span>
+        </h2>
+        <h2>
+            <span>You are in</span>            
+            <span id="weather-span">Dream</span>
+        </h2>
+        <h1>
+            <span id="clock-span">00:00:00</span>
+        </h1>
+    </div>
+    
+    <script src="src/config.js"></script>
+    <script src="src/functions.js"></script>
+    <script src="src/secure/key.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/app.js"></script>
+</body>
+</html>
