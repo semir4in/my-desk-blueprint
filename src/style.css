@@ -11,7 +11,7 @@ input {
     height: 1.3rem;
     border-style: solid;
     border-width: 1px;
-    border-radius: 0.3rem;
+    border-radius: 0.3rem;    
 }
   
 .top-header {
@@ -84,6 +84,8 @@ button {
     backdrop-filter: blur(0.11rem);
 }
 
-#id-input {
+#id-input, #login-button {
     margin: 0.3rem 0;
+    padding: 0;
+    width: 60%;
 }

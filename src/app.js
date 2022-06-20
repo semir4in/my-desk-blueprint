@@ -1,7 +1,8 @@
-// this.setButtonFunction();
+setButtonFunction();
+loadUserName();
 
-this.setUserName();
-this.setClock();
-this.setInterval(this.setClock, 1000);
+showUserName();
+setClock();
+setInterval(setClock, 1000);
 
-this.navigator.geolocation.getCurrentPosition(onGeoOkay, onGeoError);
+navigator.geolocation.getCurrentPosition(onGeoOkay, onGeoError);

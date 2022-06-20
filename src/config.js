@@ -19,5 +19,6 @@ const colors = [
     "#ff3f34"
   ];
 
-
-  const USER_NAME_KEY = "user-name";
+  const HIDDEN_CLASS = "hidden";
+  const USER_NAME_DEFAULT = "Guest";
+  const USER_NAME_KEY = "userName";
